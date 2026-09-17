@@ -37,10 +37,4 @@
 Skill для передрелізного рев'ю — у
 [`.agents/skills/frontend-review/SKILL.md`](./.agents/skills/frontend-review/SKILL.md).
 
-## Посилання після деплою
 
-- GitHub repository: `https://github.com/<username>/<repository>`
-- GitHub Pages: `https://<username>.github.io/<repository>/`
-- Vercel: `https://<project>.vercel.app/`
-
-_(Заповнити після виконання пунктів 7–9 лабораторної роботи.)_
