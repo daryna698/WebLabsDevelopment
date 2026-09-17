@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Lab 1 — Робочий стенд</title>
+    <meta
+      name="description"
+      content="Навчальний статичний проєкт для ЛР-1: налаштування середовища розробки фронтенду."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <p class="brand">frontend-lab-1</p>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+        <span class="theme-toggle__icon" aria-hidden="true">☾</span>
+        <span class="theme-toggle__label">Темна тема</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="hero__eyebrow">Лабораторна робота №1</p>
+        <h1 class="hero__title">Середовище розробки, зібране й перевірене власноруч</h1>
+        <p class="hero__lede">
+          Ця сторінка — мінімальний доказ того, що локальне середовище працює: редактор бачить
+          HTML/CSS/JS, лінтер і форматер налаштовані, а зміни проходять шлях від файлу на диску до
+          опублікованої сторінки.
+        </p>
+      </section>
+
+      <section class="panel" aria-labelledby="counter-heading">
+        <h2 id="counter-heading">Перевірка інтерактивності</h2>
+        <p class="panel__text">
+          Лічильник нижче — це найпростіший спосіб довести, що
+          <code>script.js</code> підключено правильно і DOM реагує на події.
+        </p>
+        <div class="counter">
+          <button id="decrement" class="counter__btn" type="button" aria-label="Зменшити">−</button>
+          <span id="counter-value" class="counter__value">0</span>
+          <button id="increment" class="counter__btn" type="button" aria-label="Збільшити">
+            +
+          </button>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="checklist-heading">
+        <h2 id="checklist-heading">Чекліст готовності середовища</h2>
+        <ul class="checklist">
+          <li>IDE встановлена, HTML/CSS/JS підсвічуються коректно</li>
+          <li>ESLint і Prettier підключені та форматують файл при збереженні</li>
+          <li>Є Live preview</li>
+          <li>Git ініціалізовано, перший commit виконано</li>
+          <li>AI-агент налаштований через <code>AGENTS.md</code> та skill</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ільчук Дарина Володимирівна · <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
